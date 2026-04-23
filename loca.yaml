@@ -13,6 +13,7 @@ test:
   - Panpakornk-HoneybeeHiveClassification/test/images
   - CombCount/images
 
+nc: 7
 names:
   0: egg # DeepBee
   1: larva # DeepBee
