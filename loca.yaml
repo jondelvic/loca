@@ -1,0 +1,23 @@
+path: ./Dataset 
+
+train:
+  - DeepBee/train/images
+  - Panpakornk-HoneybeeHiveClassification/train/images
+
+val:
+  - DeepBee/valid/images
+  - Panpakornk-HoneybeeHiveClassification/valid/images
+
+test:
+  - DeepBee/test/images
+  - Panpakornk-HoneybeeHiveClassification/test/images
+  - CombCount/images
+
+names:
+  0: egg # DeepBee
+  1: larva # DeepBee
+  2: capped_brood # DeepBee
+  3: pollen # DeepBee
+  4: uncapped_honey # DeepBee 'nectar' + Khokthong 'uncap'
+  5: capped_honey # Khokthong 'cap'
+  6: other # DeepBee 'dontcare' + Khokthong 'other'
