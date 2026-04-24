@@ -11,12 +11,14 @@
 ## Local Training
 1. Clone the repo
 2. Install `pip install ultralytics`
-3. Data Setup: Download the dataset from the Kaggle link above (then place them in the /Dataset directory)
+3. **Data Setup**: 
+    - Download the dataset from the Kaggle/MEGA.
+    - Extract so that the folder structure will match: `/dataset/<SourceNames>`
 4. Run training
 ```
 from ultralytics import YOLO
-model = YOLO('yolo11n.pt)
-model.train(data='loca.yaml', epochs=100, imgsz=960, batch 8)
+model = YOLO('yolo11n.pt')
+model.train(data='loca.yaml', epochs=100, imgsz=960, batch=8)
 ```
 
 ## Class Mapping
