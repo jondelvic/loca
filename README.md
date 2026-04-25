@@ -1,4 +1,7 @@
 # LOCA: Localized Offline Comb Analyzer
+
+![Banner](banner.png)
+
 **Kaggle Dataset**: 
 - [RAW](https://www.kaggle.com/datasets/jondelvic/beehive-cell-classification-dataset)
 - [TILED](https://www.kaggle.com/datasets/jondelvic/beehive-cell-classification-dataset-tiled)

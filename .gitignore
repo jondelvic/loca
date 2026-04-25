@@ -9,6 +9,7 @@
 !**/labels/
 !**/labels/*.txt
 !**/.gitkeep
+!banner.png
 
 # Local environment stuff
 __pycache__/
