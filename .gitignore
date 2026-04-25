@@ -1,12 +1,20 @@
-# ignore all images (about 15gb haha)
-**/images/*
+# ignore all images 
+*.jpg
+*.jpeg
+*.png
+*.JPG
+*.PNG
 
-# keep labels and folder structure
+# keep labels and the folder skeletons
 !**/labels/
-!**/images/.gitkeep
+!**/labels/*.txt
+!**/.gitkeep
 
-# local environment stuff
+# Local environment stuff
 __pycache__/
 .env
+.venv/
+env/
 *.pyc
 .DS_Store
+.ipynb_checkpoints/
