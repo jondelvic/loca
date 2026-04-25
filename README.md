@@ -1,25 +1,19 @@
 # LOCA: Localized Offline Comb Analyzer
-**Kaggle Dataset**: [Beehive Cell Classification Dataset](https://www.kaggle.com/datasets/jondelvic/beehive-cell-classification-dataset)
-<br>
-**MEGA**: [LOCA Dataset](https://mega.nz/folder/NG9njCRC#nRA12_W_CsbHPYU7EzNzrg)
+**Kaggle Dataset**: 
+- [RAW](https://www.kaggle.com/datasets/jondelvic/beehive-cell-classification-dataset)
+- [TILED](https://www.kaggle.com/datasets/jondelvic/beehive-cell-classification-dataset-tiled)
+
+**MEGA**: [RAW LOCA Dataset](https://mega.nz/folder/NG9njCRC#nRA12_W_CsbHPYU7EzNzrg)
 
 ## Cloud Training
-**Kaggle Notebook**: [LOCA Training Notebook](https://www.kaggle.com/code/jondelvic/loca-sample-training)
-<br>
-**Google Colab**: TODO
+**Kaggle Notebook**: 
+- [LOCA Training Phase 1](https://www.kaggle.com/code/jondelvic/loca-initial-training-phase-1)
+- [LOCA Training Phase 2](https://www.kaggle.com/code/jondelvic/loca-training-phase-2-initial-optimizations)
+- [LOCA Training Phase 3](https://www.kaggle.com/code/jondelvic/loca-training-phase-3-tiled-dataset)
+- [LOCA Training Phase 4](https://www.kaggle.com/code/jondelvic/loca-training-phase-4-yolov11s)
+- [LOCA Training Phase 5](https://www.kaggle.com/code/jondelvic/loca-training-phase-5-updated-dataset-yolo26) (PENDING)
 
-## Local Training
-1. Clone the repo
-2. Install `pip install ultralytics`
-3. **Data Setup**: 
-    - Download the dataset from the Kaggle/MEGA.
-    - Extract so that the folder structure will match: `/dataset/<SourceNames>`
-4. Run training
-```
-from ultralytics import YOLO
-model = YOLO('yolo11n.pt')
-model.train(data='loca.yaml', epochs=100, imgsz=960, batch=8)
-```
+**Google Colab**: TODO
 
 ## Class Mapping
 | ID | Class Name | Source / Mapping |
